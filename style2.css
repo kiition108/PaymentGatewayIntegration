@@ -1,0 +1,34 @@
+/* body{
+    background-image: url("./image/back.jpg");
+    background-size: cover;
+} */
+nav{
+    max-height: 8vh;
+}
+nav .navbar-brand{
+    margin-bottom: 15px;
+}
+
+#carouselExampleSlidesOnly{
+     position: relative;
+     background-size: cover;
+}
+#rzp-button1{
+    overflow: scroll;
+    font-weight: 600;
+    text-align: center;
+}
+footer{
+    position: static;
+    max-height: 15vh;
+    background-color: wheat;
+    color: black;
+    text-align: center;
+  }
+footer .fa{
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-decoration: none;
+        border-radius: 50%;
+}
