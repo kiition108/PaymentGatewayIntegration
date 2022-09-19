@@ -17,7 +17,7 @@ a:hover {
 }
 /* ------------------Backgorund------------------ */
 .slider {
-  background-image: url('../img/2.jpg');
+  background-image: url('./image/back.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -27,7 +27,7 @@ a:hover {
 }
 
 .bg {
-  background-image: url('../img/2.jpg');
+  background-image: url('./image/img4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -57,9 +57,9 @@ a:hover {
 }
 .navbar ul li a {
   text-decoration: none;
-  color: #8afd06;
+  color: #ec7f37;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 900;
   padding: 4px 12px;
   font-size: 1rem;
 }
@@ -96,9 +96,8 @@ a:hover {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding-right: 100px;
   margin-right: 10px 30px;
-  color: rgb(70, 54, 80);
-  font-weight: 600;
-  box-shadow: inset;
+  color: #ec7f37;
+  font-weight: 850;
 }
 #rzp-button1{
   text-decoration: none;
@@ -151,14 +150,14 @@ footer ul li a i{
 /*------------------Background Slider------------------ */
 @keyframes slide {
   33% {
-    background-image: url('image/img3.jpg');
+    background-image: url('./image/img4.jpg');
   }
 
   66% {
-    background-image: url('image/img2.jpg');
+    background-image: url('./image/img5.jpg');
   }
 
   100% {
-    background-image: url('image/img5.jpg');
+    background-image: url('./image/img6.jpg');
   }
 }

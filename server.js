@@ -3,6 +3,7 @@ const express=require('express')
 const app=express()
 
 const port=3000
+const path=require('path');
 const bodyparser=require('body-parser')
 const Razorpay=require('razorpay')
 
@@ -11,9 +12,14 @@ var instance = new Razorpay({
     key_id: 'rzp_test_QNhWwCZsEI88SE',
     key_secret: 'HlGztJChiRL8YaM6b0N5qKvT',
   });
+// const staticPath=path.join(__dirname,'index.html');
+// console.log(staticPath);
+app.use('/',express.static('public'));  
 app.get('/',(req,res)=>{
-    res.sendFile("index.html",{root:__dirname});
+    // res.sendFile("index.html",{root:__dirname});
+    res.send("hello");
 })
+
 
 app.post('/create/orderId',(req,res)=>{
     console.log("create orderId request",req.body);
